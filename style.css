@@ -1,0 +1,27 @@
+body{
+    background-color: #333;
+    font-family: Helvetica;
+   
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.clock{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    height: 88px;
+    display: flex;
+    align-items: center;
+}
+.clock span{
+    margin-right: 0.5rem;
+}
